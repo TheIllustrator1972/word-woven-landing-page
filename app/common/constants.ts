@@ -1,7 +1,7 @@
 export const appData = {
-  name: "App Name",
-  title: "App Title",
-  description: "This is a brief description of the app.",
+  name: "Word Woven",
+  title: "Word Woven",
+  description: "Swipe Letters, Find Words",
   isLaunched: false,
   socialLinks: {
     email: "mailto:theillustrator2001@gmail.com",
@@ -9,8 +9,7 @@ export const appData = {
     linkedin: "https://www.linkedin.com/in/nileshsk1/",
     website: "https://nileshkamble.co.in/",
   },
-  appStoreLink:
-    "https://apps.apple.com/in/developer/nilesh-kamble/id1790227862",
+  appStoreLink: "https://apps.apple.com/in/developer/nilesh-kamble/",
 };
 
 export const openGraphMetadata = {
