@@ -1,499 +1,292 @@
+import type { Metadata } from "next";
+import Header from "../common/Header";
+import Copyright from "../common/Copytight/Copyright";
+import { appData } from "../common/constants";
+
+export const metadata: Metadata = {
+  title: `Privacy Policy | ${appData.name}`,
+  description: `Privacy policy for the ${appData.name} iOS app (Google AdMob banner ads and Remove Ads) and this website.`,
+};
+
+const sectionClass = "space-y-3";
+const headingClass = "text-xl font-semibold tracking-tight text-white";
+const linkClass = "underline underline-offset-4 hover:opacity-80";
+
 export default function Privacy() {
   return (
-    <div className="min-h-screen bg-gray-50 px-4 py-12">
-      <div className="mx-auto max-w-3xl rounded-2xl bg-white p-8 shadow-lg md:p-12">
-        <div className="prose prose-gray prose-h1:text-3xl prose-h1:font-bold prose-h2:text-xl prose-h2:mt-10 prose-h3:text-lg prose-h3:mt-6 prose-p:text-gray-600 prose-li:text-gray-600 prose-a:text-blue-600 hover:prose-a:text-blue-500 max-w-none">
-          <h1 className="mt-10 text-center text-2xl font-bold">
-            Privacy Policy
-          </h1>
-          <p>Last updated: May 03, 2026</p>
-          <p>
-            This Privacy Policy describes Our policies and procedures on the
-            collection, use and disclosure of Your information when You use the
-            Service and tells You about Your privacy rights and how the law
-            protects You.
-          </p>
-          <p>
-            We use Your Personal Data to provide and improve the Service. By
-            using the Service, You agree to the collection and use of
-            information in accordance with this Privacy Policy. This Privacy
-            Policy has been created with the help of the{" "}
-            <a
-              href="https://www.termsfeed.com/privacy-policy-generator/"
-              target="_blank"
-            >
-              Privacy Policy Generator
-            </a>
-            .
-          </p>
-          <h2>Interpretation and Definitions</h2>
-          <h3>Interpretation</h3>
-          <p>
-            The words whose initial letters are capitalized have meanings
-            defined under the following conditions. The following definitions
-            shall have the same meaning regardless of whether they appear in
-            singular or in plural.
-          </p>
-          <h3>Definitions</h3>
-          <p>For the purposes of this Privacy Policy:</p>
-          <ul>
-            <li>
-              <p>
-                <strong>Account</strong> means a unique account created for You
-                to access our Service or parts of our Service.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Affiliate</strong> means an entity that controls, is
-                controlled by, or is under common control with a party, where
-                &quot;control&quot; means ownership of 50% or more of the
-                shares, equity interest or other securities entitled to vote for
-                election of directors or other managing authority.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Application</strong> refers to Word Woven, the software
-                program provided by the Company.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Company</strong> (referred to as either &quot;the
-                Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
-                in this Privacy Policy) refers to Word Woven.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Country</strong> refers to: Maharashtra, India
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Device</strong> means any device that can access the
-                Service such as a computer, a cell phone or a digital tablet.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Personal Data</strong> (or &quot;Personal
-                Information&quot;) is any information that relates to an
-                identified or identifiable individual.
-              </p>
-              <p>
-                We use &quot;Personal Data&quot; and &quot;Personal
-                Information&quot; interchangeably unless a law uses a specific
-                term.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Service</strong> refers to the Application.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Service Provider</strong> means any natural or legal
-                person who processes the data on behalf of the Company. It
-                refers to third-party companies or individuals employed by the
-                Company to facilitate the Service, to provide the Service on
-                behalf of the Company, to perform services related to the
-                Service or to assist the Company in analyzing how the Service is
-                used.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>Usage Data</strong> refers to data collected
-                automatically, either generated by the use of the Service or
-                from the Service infrastructure itself (for example, the
-                duration of a page visit).
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>You</strong> means the individual accessing or using the
-                Service, or the company, or other legal entity on behalf of
-                which such individual is accessing or using the Service, as
-                applicable.
-              </p>
-            </li>
-          </ul>
-          <h2>Collecting and Using Your Personal Data</h2>
-          <h3>Types of Data Collected</h3>
-          <h4>Personal Data</h4>
-          <p>
-            While using Our Service, We may ask You to provide Us with certain
-            personally identifiable information that can be used to contact or
-            identify You. Personally identifiable information may include, but
-            is not limited to:
-          </p>
-          <h4>Usage Data</h4>
-          <p>Usage Data is collected automatically when using the Service.</p>
-          <p>
-            Usage Data may include information such as Your Device's Internet
-            Protocol address (e.g. IP address), browser type, browser version,
-            the pages of our Service that You visit, the time and date of Your
-            visit, the time spent on those pages, unique device identifiers and
-            other diagnostic data.
-          </p>
-          <p>
-            When You access the Service by or through a mobile device, We may
-            collect certain information automatically, including, but not
-            limited to, the type of mobile device You use, Your mobile device's
-            unique ID, the IP address of Your mobile device, Your mobile
-            operating system, the type of mobile Internet browser You use,
-            unique device identifiers and other diagnostic data.
-          </p>
-          <p>
-            We may also collect information that Your browser sends whenever You
-            visit Our Service or when You access the Service by or through a
-            mobile device.
-          </p>
-          <h3>Use of Your Personal Data</h3>
-          <p>The Company may use Personal Data for the following purposes:</p>
-          <ul>
-            <li>
-              <p>
-                <strong>To provide and maintain our Service</strong>, including
-                to monitor the usage of our Service.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>To manage Your Account:</strong> to manage Your
-                registration as a user of the Service. The Personal Data You
-                provide can give You access to different functionalities of the
-                Service that are available to You as a registered user.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>For the performance of a contract:</strong> the
-                development, compliance and undertaking of the purchase contract
-                for the products, items or services You have purchased or of any
-                other contract with Us through the Service.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>To contact You:</strong> To contact You by email,
-                telephone calls, SMS, or other equivalent forms of electronic
-                communication, such as a mobile application's push notifications
-                regarding updates or informative communications related to the
-                functionalities, products or contracted services, including the
-                security updates, when necessary or reasonable for their
-                implementation.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>To provide You</strong> with news, special offers, and
-                general information about other goods, services and events which
-                We offer that are similar to those that you have already
-                purchased or inquired about unless You have opted not to receive
-                such information.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>To manage Your requests:</strong> To attend and manage
-                Your requests to Us.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>For business transfers:</strong> We may use Your
-                Personal Data to evaluate or conduct a merger, divestiture,
-                restructuring, reorganization, dissolution, or other sale or
-                transfer of some or all of Our assets, whether as a going
-                concern or as part of bankruptcy, liquidation, or similar
-                proceeding, in which Personal Data held by Us about our Service
-                users is among the assets transferred.
-              </p>
-            </li>
-            <li>
-              <p>
-                <strong>For other purposes</strong>: We may use Your information
-                for other purposes, such as data analysis, identifying usage
-                trends, determining the effectiveness of our promotional
-                campaigns and to evaluate and improve our Service, products,
-                services, marketing and your experience.
-              </p>
-            </li>
-          </ul>
-          <p>We may share Your Personal Data in the following situations:</p>
-          <ul>
-            <li>
-              <strong>With Service Providers:</strong> We may share Your
-              Personal Data with Service Providers to monitor and analyze the
-              use of our Service, to contact You.
-            </li>
-            <li>
-              <strong>For business transfers:</strong> We may share or transfer
-              Your Personal Data in connection with, or during negotiations of,
-              any merger, sale of Company assets, financing, or acquisition of
-              all or a portion of Our business to another company.
-            </li>
-            <li>
-              <strong>With Affiliates:</strong> We may share Your Personal Data
-              with Our affiliates, in which case we will require those
-              affiliates to honor this Privacy Policy. Affiliates include Our
-              parent company and any other subsidiaries, joint venture partners
-              or other companies that We control or that are under common
-              control with Us.
-            </li>
-            <li>
-              <strong>With business partners:</strong> We may share Your
-              Personal Data with Our business partners to offer You certain
-              products, services or promotions.
-            </li>
-            <li>
-              <strong>With other users:</strong> If Our Service offers public
-              areas, when You share Personal Data or otherwise interact in the
-              public areas with other users, such information may be viewed by
-              all users and may be publicly distributed outside.
-            </li>
-            <li>
-              <strong>With Your consent</strong>: We may disclose Your Personal
-              Data for any other purpose with Your consent.
-            </li>
-          </ul>
-          <h3>Retention of Your Personal Data</h3>
-          <p>
-            The Company will retain Your Personal Data only for as long as is
-            necessary for the purposes set out in this Privacy Policy. We will
-            retain and use Your Personal Data to the extent necessary to comply
-            with our legal obligations (for example, if We are required to
-            retain Your data to comply with applicable laws), resolve disputes,
-            and enforce our legal agreements and policies.
-          </p>
-          <p>
-            Where possible, We apply shorter retention periods and/or reduce
-            identifiability by deleting, aggregating, or anonymizing data.
-            Unless otherwise stated, the retention periods below are maximum
-            periods (&quot;up to&quot;) and We may delete or anonymize data
-            sooner when it is no longer needed for the relevant purpose. We
-            apply different retention periods to different categories of
-            Personal Data based on the purpose of processing and legal
-            obligations:
-          </p>
-          <ul>
-            <li>
-              <p>Account Information</p>
-              <ul>
-                <li>
-                  User Accounts: retained for the duration of your account
-                  relationship plus up to 24 months after account closure to
-                  handle any post-termination issues or resolve disputes.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <p>Usage Data</p>
-              <ul>
-                <li>
-                  <p>
-                    Application usage statistics: up to 24 months to understand
-                    feature adoption and service improvements.
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Server logs (IP addresses, access times): up to 24 months
-                    for security monitoring and troubleshooting purposes.
-                  </p>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <p>
-            Usage Data is retained in accordance with the retention periods
-            described above, and may be retained longer only where necessary for
-            security, fraud prevention, or legal compliance.
-          </p>
-          <p>
-            We may retain Personal Data beyond the periods stated above for
-            different reasons:
-          </p>
-          <ul>
-            <li>
-              Legal obligation: We are required by law to retain specific data
-              (e.g., financial records for tax authorities).
-            </li>
-            <li>
-              Legal claims: Data is necessary to establish, exercise, or defend
-              legal claims.
-            </li>
-            <li>
-              Your explicit request: You ask Us to retain specific information.
-            </li>
-            <li>
-              Technical limitations: Data exists in backup systems that are
-              scheduled for routine deletion.
-            </li>
-          </ul>
-          <p>
-            You may request information about how long We will retain Your
-            Personal Data by contacting Us.
-          </p>
-          <p>
-            When retention periods expire, We securely delete or anonymize
-            Personal Data according to the following procedures:
-          </p>
-          <ul>
-            <li>
-              Deletion: Personal Data is removed from Our systems and no longer
-              actively processed.
-            </li>
-            <li>
-              Backup retention: Residual copies may remain in encrypted backups
-              for a limited period consistent with our backup retention schedule
-              and are not restored except where necessary for security, disaster
-              recovery, or legal compliance.
-            </li>
-            <li>
-              Anonymization: In some cases, We convert Personal Data into
-              anonymous statistical data that cannot be linked back to You. This
-              anonymized data may be retained indefinitely for research and
-              analytics.
-            </li>
-          </ul>
-          <h3>Transfer of Your Personal Data</h3>
-          <p>
-            Your information, including Personal Data, is processed at the
-            Company's operating offices and in any other places where the
-            parties involved in the processing are located. It means that this
-            information may be transferred to — and maintained on — computers
-            located outside of Your state, province, country or other
-            governmental jurisdiction where the data protection laws may differ
-            from those from Your jurisdiction.
-          </p>
-          <p>
-            Where required by applicable law, We will ensure that international
-            transfers of Your Personal Data are subject to appropriate
-            safeguards and supplementary measures where appropriate. The Company
-            will take all steps reasonably necessary to ensure that Your data is
-            treated securely and in accordance with this Privacy Policy and no
-            transfer of Your Personal Data will take place to an organization or
-            a country unless there are adequate controls in place including the
-            security of Your data and other personal information.
-          </p>
-          <h3>Delete Your Personal Data</h3>
-          <p>
-            You have the right to delete or request that We assist in deleting
-            the Personal Data that We have collected about You.
-          </p>
-          <p>
-            Our Service may give You the ability to delete certain information
-            about You from within the Service.
-          </p>
-          <p>
-            You may update, amend, or delete Your information at any time by
-            signing in to Your Account, if you have one, and visiting the
-            account settings section that allows you to manage Your personal
-            information. You may also contact Us to request access to, correct,
-            or delete any Personal Data that You have provided to Us.
-          </p>
-          <p>
-            Please note, however, that We may need to retain certain information
-            when we have a legal obligation or lawful basis to do so.
-          </p>
-          <h3>Disclosure of Your Personal Data</h3>
-          <h4>Business Transactions</h4>
-          <p>
-            If the Company is involved in a merger, acquisition or asset sale,
-            Your Personal Data may be transferred. We will provide notice before
-            Your Personal Data is transferred and becomes subject to a different
-            Privacy Policy.
-          </p>
-          <h4>Law enforcement</h4>
-          <p>
-            Under certain circumstances, the Company may be required to disclose
-            Your Personal Data if required to do so by law or in response to
-            valid requests by public authorities (e.g. a court or a government
-            agency).
-          </p>
-          <h4>Other legal requirements</h4>
-          <p>
-            The Company may disclose Your Personal Data in the good faith belief
-            that such action is necessary to:
-          </p>
-          <ul>
-            <li>Comply with a legal obligation</li>
-            <li>Protect and defend the rights or property of the Company</li>
-            <li>
-              Prevent or investigate possible wrongdoing in connection with the
-              Service
-            </li>
-            <li>
-              Protect the personal safety of Users of the Service or the public
-            </li>
-            <li>Protect against legal liability</li>
-          </ul>
-          <h3>Security of Your Personal Data</h3>
-          <p>
-            The security of Your Personal Data is important to Us, but remember
-            that no method of transmission over the Internet, or method of
-            electronic storage is 100% secure. While We strive to use
-            commercially reasonable means to protect Your Personal Data, We
-            cannot guarantee its absolute security.
-          </p>
-          <h2>Children's Privacy</h2>
-          <p>
-            Our Service does not address anyone under the age of 16. We do not
-            knowingly collect personally identifiable information from anyone
-            under the age of 16. If You are a parent or guardian and You are
-            aware that Your child has provided Us with Personal Data, please
-            contact Us. If We become aware that We have collected Personal Data
-            from anyone under the age of 16 without verification of parental
-            consent, We take steps to remove that information from Our servers.
-          </p>
-          <p>
-            If We need to rely on consent as a legal basis for processing Your
-            information and Your country requires consent from a parent, We may
-            require Your parent's consent before We collect and use that
-            information.
-          </p>
-          <h2>Links to Other Websites</h2>
-          <p>
-            Our Service may contain links to other websites that are not
-            operated by Us. If You click on a third party link, You will be
-            directed to that third party's site. We strongly advise You to
-            review the Privacy Policy of every site You visit.
-          </p>
-          <p>
-            We have no control over and assume no responsibility for the
-            content, privacy policies or practices of any third party sites or
-            services.
-          </p>
-          <h2>Changes to this Privacy Policy</h2>
-          <p>
-            We may update Our Privacy Policy from time to time. We will notify
-            You of any changes by posting the new Privacy Policy on this page.
-          </p>
-          <p>
-            We will let You know via email and/or a prominent notice on Our
-            Service, prior to the change becoming effective and update the
-            &quot;Last updated&quot; date at the top of this Privacy Policy.
-          </p>
-          <p>
-            You are advised to review this Privacy Policy periodically for any
-            changes. Changes to this Privacy Policy are effective when they are
-            posted on this page.
-          </p>
-          <h2>Contact Us</h2>
-          <p>
-            If you have any questions about this Privacy Policy, You can contact
-            us:
-          </p>
-          <ul>
-            <li>By email: theillustrator2001@gmail.com</li>
-          </ul>
-        </div>
-      </div>
+    <div className="flex h-dvh w-full flex-col items-center overflow-y-auto bg-dark-background text-light-app-name-text">
+      <Header />
+      <main className="w-full max-w-3xl flex-grow px-6 py-10 sm:px-8">
+        <article className="space-y-8 leading-relaxed text-white/80">
+          <header className="space-y-2 text-center">
+            <h1 className="text-3xl font-extrabold tracking-tight text-light-app-name-text sm:text-4xl">
+              Privacy Policy
+            </h1>
+            <p className="text-sm text-white/50">
+              Last updated: September 29, 2026
+            </p>
+          </header>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Who we are</h2>
+            <p>
+              This policy describes how Nilesh Kamble (&quot;I&quot;,
+              &quot;me&quot;, or &quot;the developer&quot;), based in India,
+              handles information for{" "}
+              <strong className="text-light-app-name-text">{appData.name}</strong>
+              , an iOS word game, and for this website.
+            </p>
+            <p>
+              Contact:{" "}
+              <a href={appData.socialLinks.email} className={linkClass}>
+                {appData.contactEmail}
+              </a>
+              . I do not have a Data Protection Officer.
+            </p>
+            <p>
+              Bundle ID:{" "}
+              <code className="text-white/90">theIllustrator.Word-Find</code>.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>The product</h2>
+            <p>
+              Word Woven is a portrait iOS game. You swipe letter columns and
+              spell the words hidden on the board. It is not a children&apos;s
+              app. The game uses Google advertising (described below). It does
+              not use Firebase, a crash-reporting SDK, or a separate analytics
+              SDK in the app.
+            </p>
+            <p>
+              I do not create an account for you. Puzzle progress and settings
+              stay on your device.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Advertising in the app</h2>
+            <p>
+              The app uses Google AdMob (the Google Mobile Ads SDK) to show a
+              banner ad. Ad requests are non-personalized. Google may still
+              process technical data such as IP address, device and app
+              information, and ad interactions (impressions and clicks) to
+              deliver the banner, measure it, limit fraud, and cap how often an
+              ad is shown. The app does not use the advertising identifier
+              (IDFA) and does not ask you to allow tracking.
+            </p>
+            <h3 className="text-lg font-semibold text-white">Banner ads</h3>
+            <p>
+              A banner can appear along the bottom of the play screen, starting
+              the third time you open the app. It is not shown during the
+              tutorial. Buying{" "}
+              <strong className="text-light-app-name-text">Remove Ads</strong>{" "}
+              hides it. There are no rewarded video ads.
+            </p>
+            <p>
+              Apple&apos;s SKAdNetwork may be used to measure ad performance
+              without the advertising identifier.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Legal bases</h2>
+            <p>
+              Ad requests are marked non-personalized, so the app does not show
+              a consent form for personalized advertising. Where the law allows
+              it — including in the European Union, the European Economic Area
+              (EEA, including Iceland, Liechtenstein, and Norway), and the
+              United Kingdom — delivery and measurement of these ads is based
+              on legitimate interests in keeping the game free.
+            </p>
+            <p>
+              You can remove the banner with the Remove Ads purchase in
+              Settings.
+            </p>
+            <p>
+              If you email me, I use that correspondence to reply. This website
+              uses Google Analytics as described below.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Who receives data, and transfers</h2>
+            <p>Ad-related data may be received by:</p>
+            <ul className="list-disc space-y-1 pl-5">
+              <li>Google LLC and its AdMob / advertising services</li>
+              <li>
+                advertising partners Google uses to fill the non-personalized
+                banner
+              </li>
+            </ul>
+            <p>
+              This can include transfers outside your country, including to the
+              United States. I do not operate those transfers myself. Google
+              describes its international transfers (including any Standard
+              Contractual Clauses or other tools it uses) in{" "}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={linkClass}
+              >
+                Google&apos;s privacy policy
+              </a>
+              .
+            </p>
+            <p>
+              Apple processes App Store downloads and the Remove Ads in-app
+              purchase under Apple&apos;s terms and privacy policy.
+            </p>
+            <p>
+              If you email me, that message is received by me in India and by
+              my email provider.
+            </p>
+            <p>
+              I may disclose information if required by law, or if I believe in
+              good faith that it is necessary to protect safety or respond to a
+              lawful request.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Retention</h2>
+            <p>
+              I do not keep advertising profiles. The Google Mobile Ads SDK may
+              store what it needs on your device to show the banner.
+              Google&apos;s own retention periods apply to advertising data
+              Google processes. See Google&apos;s privacy policy.
+            </p>
+            <p>
+              Emails you send me are kept as long as needed to respond and for
+              ordinary record-keeping. Website analytics is retained according
+              to Google Analytics.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Your rights</h2>
+            <p>
+              Depending on where you live — especially in the EU, EEA, and UK —
+              you may have the right to access personal data, delete it, object
+              to processing, and withdraw consent.
+            </p>
+            <ul className="list-disc space-y-1 pl-5">
+              <li>
+                To hide the banner: buy{" "}
+                <strong className="text-light-app-name-text">Remove Ads</strong>{" "}
+                in Settings
+              </li>
+              <li>
+                For data I hold (for example, an email you sent me): write to{" "}
+                <a href={appData.socialLinks.email} className={linkClass}>
+                  {appData.contactEmail}
+                </a>
+              </li>
+              <li>
+                For advertising data processed by Google: see Google&apos;s
+                privacy policy and Google&apos;s ad settings
+              </li>
+            </ul>
+            <p>
+              You may also lodge a complaint with a supervisory authority in
+              the EEA, or with the Information Commissioner&apos;s Office (ICO)
+              in the United Kingdom.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Children</h2>
+            <p>
+              Word Woven is not directed at children under 13 in the United
+              States, or at children under 16 in the EU, EEA, or UK (a typical
+              digital-consent age). It is not a kids&apos; app. I do not
+              knowingly collect personal information from children, and I do
+              not run ads that I know are directed at children.
+            </p>
+            <p>
+              If you believe a child has provided personal information to me,
+              email me and I will delete it where I can.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Remove Ads in-app purchase</h2>
+            <p>
+              The Remove Ads product hides the banner at the bottom of the
+              board. The app does not show rewarded ads, so Remove Ads removes
+              the only advertising in the app. Apple processes the purchase.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>This website</h2>
+            <p>
+              This website uses Google Analytics to understand how people find
+              and use the page. Google may collect pages you visit, how long
+              you stay, approximate location derived from IP address, and
+              browser, device, and operating system details. The site may set
+              Analytics cookies. I do not collect names, emails, or accounts
+              through this site unless you choose to email me.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Google&apos;s policies</h2>
+            <p>
+              Google&apos;s practices for AdMob, Analytics, and related
+              services are described by Google:
+            </p>
+            <ul className="list-disc space-y-1 pl-5">
+              <li>
+                <a
+                  href="https://policies.google.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={linkClass}
+                >
+                  Google Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://policies.google.com/technologies/partner-sites"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={linkClass}
+                >
+                  How Google uses information from sites or apps that use its
+                  services
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Changes</h2>
+            <p>
+              I may update this policy from time to time. The new version will
+              be posted on this page with a new &quot;Last updated&quot; date.
+            </p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>Contact</h2>
+            <p>
+              Nilesh Kamble
+              <br />
+              Questions about this policy, the app, or this website:{" "}
+              <a href={appData.socialLinks.email} className={linkClass}>
+                {appData.contactEmail}
+              </a>
+              .
+            </p>
+          </section>
+        </article>
+      </main>
+      <footer>
+        <Copyright />
+      </footer>
     </div>
   );
 }

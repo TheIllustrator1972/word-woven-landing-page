@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   const GoogleAnalyticsId = "G-B28R21DJWJ";
   return (
-    <html lang="en" className={roboto.variable}>
+    <html lang="en" className={`${roboto.variable} dark`} style={{ colorScheme: "dark" }}>
       <head>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GoogleAnalyticsId}`}

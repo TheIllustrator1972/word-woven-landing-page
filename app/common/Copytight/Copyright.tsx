@@ -1,7 +1,15 @@
+import Link from "next/link";
+
 const Copyright = () => {
   return (
-    <div className="md: text-light-copytight-text dark:text-dark-copytight-text pb-2 pb-6 text-center text-sm opacity-70 sm:pb-4">
-      © Nilesh Kamble 2025
+    <div className="pb-6 text-center text-sm text-dark-copytight-text opacity-70">
+      <p>© Nilesh Kamble 2026</p>
+      <Link
+        href="/privacy"
+        className="mt-1 inline-block underline underline-offset-4 hover:opacity-100"
+      >
+        Privacy Policy
+      </Link>
     </div>
   );
 };

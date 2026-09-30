@@ -2,14 +2,15 @@ export const appData = {
   name: "Word Woven",
   title: "Word Woven",
   description: "Swipe Letters, Find Words",
-  isLaunched: false,
+  isLaunched: true,
+  contactEmail: "theillustrator2001@gmail.com",
   socialLinks: {
     email: "mailto:theillustrator2001@gmail.com",
     twitter: "https://x.com/devillus1972",
     linkedin: "https://www.linkedin.com/in/nileshsk1/",
     website: "https://nileshkamble.co.in/",
   },
-  appStoreLink: "https://apps.apple.com/in/developer/nilesh-kamble/",
+  appStoreLink: "https://apps.apple.com/in/app/word-woven/id6765878463",
 };
 
 export const openGraphMetadata = {

@@ -20,6 +20,8 @@ export default {
         "dark-coming-soon-text": "#444",
         "light-copytight-text": "#444",
         "dark-copytight-text": "#ccc",
+        "word-mint": "#5EDBA5",
+        "word-tile": "#ADBBA4",
       },
     },
   },

@@ -5,7 +5,7 @@ import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { appData } from "../constants";
 
 const iconClass =
-  "text-lg sm:text-xl md:text-2xl cursor-pointer transition-transform duration-200 hover:scale-110 text-dark-app-name-text dark:text-light-app-name-text";
+  "text-lg sm:text-xl md:text-2xl cursor-pointer transition-transform duration-200 hover:scale-110 text-light-app-name-text";
 
 const SocialIcons = () => {
   const socialLinksData = [
